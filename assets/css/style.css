@@ -1,0 +1,7 @@
+.circle {
+  background: red;
+  border-radius: 50%;
+  padding: 20px; }
+
+.br-50 {
+  border-radius: 50%; }
