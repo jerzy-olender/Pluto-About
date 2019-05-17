@@ -462,7 +462,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-between">
-                    <div class="left_side d-flex">
+                    <div class="left_side d-flex align-items-center">
                         <span class="section_span">follow us
                         </span>
                         <span class="d-flex justify-content-center align-items-center fab fa-facebook big_circle"></span>
@@ -470,7 +470,7 @@
                         <span class="d-flex justify-content-center align-items-center fab fa-facebook big_circle"></span>
                         <span class="d-flex justify-content-center align-items-center fab fa-facebook big_circle"></span>
                     </div>
-                    <div class="right_side">
+                    <div class="right_side d-flex align-items-center">
                         <span class="section_span">get the newsletter
                         </span>
                         <input>
@@ -484,16 +484,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-3">
-
+                    <img class="logo_footer" src="assets/img/Logo_footer.png">
+                    <span class="section_span">pluto
+                    </span>
                 </div>
                 <div class="col-sm-6 col-md-3">
-
+                    <span class="section_span">contact us
+                    </span>
                 </div>
                 <div class="col-sm-6 col-md-3">
-
+                    <span class="section_span">recent tweet
+                    </span>
                 </div>
                 <div class="col-sm-6 col-md-3">
-
+                    <span class="section_span">photostream
+                    </span>
                 </div>
             </div>
         </div>
@@ -513,6 +518,16 @@
             $(this).closest('.col-md-6').find('span').removeClass('fa-minus').addClass('fa-plus');
             $(this).parent().find('span').removeClass('fa-plus').addClass('fa-minus');
         });
+
+
+        $('[data-toggle="collapse"]').on('click',function(e){
+    if ( $(this).parents('.accordion').find('.collapse.show') ){
+        var idx = $(this).index('[data-toggle="collapse"]');
+        if (idx == $('.collapse.show').index('.collapse')) {
+            e.stopPropagation();
+        }
+    }
+});
     </script>
 </body>
 

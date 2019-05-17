@@ -218,8 +218,7 @@ body {
   font-size: 13px;
   font-weight: 600;
   color: #999;
-  text-transform: uppercase;
-  margin-bottom: 30px; }
+  text-transform: uppercase; }
 
 .section_span_mb15 {
   font-size: 13px;
@@ -229,6 +228,12 @@ body {
   padding-bottom: 20px;
   margin-bottom: 15px;
   border-bottom: 1px solid #e5e5e5; }
+
+.mb30 {
+  margin-bottom: 30px; }
+
+.mb15 {
+  margin-bottom: 15px; }
 
 .section_heading {
   font-size: 32px;
@@ -332,4 +337,11 @@ body {
   color: #fff; }
 
 .follow_us {
-  background-color: #453951; }
+  background-color: #453951;
+  padding: 20px 0; }
+
+.my_footer {
+  background-color: #2a272e; }
+
+.button [aria-expanded=true] {
+  pointer-events: none; }
