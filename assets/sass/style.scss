@@ -261,6 +261,14 @@
     bottom: -20px;
 }
 
+.carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
 .our_team {
     padding: 50px 0 70px 0;
 }
