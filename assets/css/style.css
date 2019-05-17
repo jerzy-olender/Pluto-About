@@ -397,6 +397,12 @@ body {
   color: #ccc;
   line-height: 22px; }
 
+.footer_text4 {
+  font-size: 11px;
+  color: #545158;
+  line-height: 23px;
+  text-transform: uppercase; }
+
 .footer_wrapper {
   margin-bottom: 29px; }
 
