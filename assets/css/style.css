@@ -189,11 +189,6 @@ body {
   font-size: 32px;
   color: #fff; }
 
-.section_heading_light_mb30 {
-  font-size: 32px;
-  color: #fff;
-  margin-bottom: 30px; }
-
 .our_company {
   padding: 51px 0 70px 0; }
 
@@ -361,7 +356,10 @@ body {
   height: 39px;
   background-color: transparent;
   border: 2px solid #8f8897;
-  border-radius: 2px; }
+  border-radius: 2px;
+  color: #999;
+  font-size: 13px;
+  padding-left: 10px; }
 
 .follow_button {
   height: 39px;
