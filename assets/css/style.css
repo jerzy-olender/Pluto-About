@@ -385,6 +385,10 @@ body {
   font-size: 14px;
   line-height: 30px; }
 
+.footer_text2 {
+  font-size: 18px;
+  color: #d75b3b; }
+
 .footer_wrapper {
   margin-bottom: 29px; }
 
