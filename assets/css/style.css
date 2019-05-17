@@ -230,6 +230,9 @@ body {
 .mb15 {
   margin-bottom: 15px; }
 
+.mb10 {
+  margin-bottom: 10px; }
+
 .mr10 {
   margin-right: 10px; }
 
@@ -378,7 +381,8 @@ body {
   letter-spacing: 1.3px; }
 
 .my_footer {
-  background-color: #2a272e; }
+  background-color: #2a272e;
+  padding: 50px 0 87px 0; }
 
 .footer_heading {
   font-size: 18px;
@@ -403,7 +407,6 @@ body {
 .footer_text4 {
   font-size: 11px;
   color: #545158;
-  line-height: 23px;
   text-transform: uppercase; }
 
 .footer_wrapper {
