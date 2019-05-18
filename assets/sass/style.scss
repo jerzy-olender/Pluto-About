@@ -398,6 +398,17 @@
     pointer-events: none;
 }
 
+@media(max-width: 1200px) {
+    .stream_wrapper{
+        flex-direction: column;
+    .footer_image {
+        max-width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+}
+}
+
 @media(max-width: 992px) {
     .follow{
         justify-content: center !important;  
