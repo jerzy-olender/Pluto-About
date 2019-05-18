@@ -405,6 +405,20 @@
     .left_side{
         margin-bottom: 30px;
     }
+    
+}
+@media(width: 992px) {
+    .left_side{
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 991px) {
+    .our_clients{
+        .text_paragraph{
+            margin-bottom: 30px;
+        }
+    }
 }
 
 @media(max-width: 768px) {
@@ -425,4 +439,21 @@
         }
     }
     }
+}
+
+@media(max-width: 394px) {
+
+    .follow_us{
+        
+        .follow{
+            flex-direction: column;
+            .left_side{
+                flex-direction: column;
+                .fab, .section_span{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    
 }

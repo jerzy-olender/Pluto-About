@@ -435,6 +435,14 @@ body {
   .left_side {
     margin-bottom: 30px; } }
 
+@media (width: 992px) {
+  .left_side {
+    margin-bottom: 0px; } }
+
+@media (max-width: 991px) {
+  .our_clients .text_paragraph {
+    margin-bottom: 30px; } }
+
 @media (max-width: 768px) {
   .our_company_img,
   .accordion {
@@ -445,3 +453,11 @@ body {
     flex-direction: column; }
     .follow_us .right_side .section_span, .follow_us .right_side .my_input {
       margin-bottom: 30px; } }
+
+@media (max-width: 394px) {
+  .follow_us .follow {
+    flex-direction: column; }
+    .follow_us .follow .left_side {
+      flex-direction: column; }
+      .follow_us .follow .left_side .fab, .follow_us .follow .left_side .section_span {
+        margin-bottom: 10px; } }
