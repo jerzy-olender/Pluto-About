@@ -248,6 +248,9 @@ html {
 .mr15 {
   margin-right: 15px; }
 
+.mr20 {
+  margin-right: 20px; }
+
 .mr30 {
   margin-right: 30px; }
 
@@ -342,6 +345,10 @@ html {
 
 .our_team {
   padding: 50px 0 70px 0; }
+  .our_team .fab {
+    color: #999; }
+    .our_team .fab:hover {
+      color: #333; }
 
 .team_img {
   margin-bottom: 20px; }
@@ -454,7 +461,8 @@ html {
   right: 30px;
   text-decoration: none !important; }
   .circle_fixed:hover {
-    color: #fff; }
+    color: #fff;
+    background-color: #ea623d; }
 
 .fa-chevron-up {
   font-size: 25px; }
@@ -511,7 +519,8 @@ html {
 @media (max-width: 493px) {
   .follow_us .right_side {
     flex-direction: column; }
-    .follow_us .right_side .section_span, .follow_us .right_side .my_input {
+    .follow_us .right_side .section_span,
+    .follow_us .right_side .my_input {
       margin-bottom: 30px; } }
 
 @media (max-width: 394px) {
@@ -519,5 +528,6 @@ html {
     flex-direction: column; }
     .follow_us .follow .left_side {
       flex-direction: column; }
-      .follow_us .follow .left_side .fab, .follow_us .follow .left_side .section_span {
+      .follow_us .follow .left_side .fab,
+      .follow_us .follow .left_side .section_span {
         margin-bottom: 10px; } }

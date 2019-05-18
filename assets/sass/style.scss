@@ -3,11 +3,12 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-.navbar-light .navbar-nav .active > .nav-link{
+.navbar-light .navbar-nav .active>.nav-link {
     border-bottom: 2px solid #ea623d;
 }
+
 .navbar {
     padding: calc(.5rem + 11.5px) 1rem;
     width: 100%;
@@ -29,9 +30,11 @@ html {
         }
 
     }
+
     .navbar-nav {
         justify-content: flex-end;
         width: 100%;
+
         .nav-link {
             font-size: 13px;
             font-weight: 600;
@@ -162,6 +165,10 @@ html {
     margin-right: 15px;
 }
 
+.mr20 {
+    margin-right: 20px;
+}
+
 .mr30 {
     margin-right: 30px;
 }
@@ -286,6 +293,14 @@ html {
 
 .our_team {
     padding: 50px 0 70px 0;
+
+    .fab {
+        color: #999;
+
+        &:hover {
+            color: #333;
+        }
+    }
 }
 
 .team_img {
@@ -386,7 +401,8 @@ html {
     font-size: 14px;
     color: #ccc;
     line-height: 22px;
-    .orange{
+
+    .orange {
         color: #d05a3b;
     }
 }
@@ -418,91 +434,103 @@ html {
     bottom: 30px;
     right: 30px;
     text-decoration: none !important;
-    &:hover{
+
+    &:hover {
         color: #fff;
+        background-color: #ea623d;
     }
 }
-.fa-chevron-up{
+
+.fa-chevron-up {
     font-size: 25px;
 }
 
 @media(max-width: 1200px) {
-    .stream_wrapper{
+    .stream_wrapper {
         flex-direction: column;
-    .footer_image {
-        max-width: 80px;
-        height: 80px;
-        margin-bottom: 10px;
+
+        .footer_image {
+            max-width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
     }
-}
 }
 
 @media(max-width: 992px) {
-    .follow{
-        justify-content: center !important;  
+    .follow {
+        justify-content: center !important;
     }
-    .left_side{
+
+    .left_side {
         margin-bottom: 30px;
     }
-    .navbar-light .navbar-nav .active > .nav-link {
+
+    .navbar-light .navbar-nav .active>.nav-link {
         border-bottom: 2px solid transparent;
     }
-    .navbar{
-        .navbar-nav{
-            .nav-link{
-                &:hover{
+
+    .navbar {
+        .navbar-nav {
+            .nav-link {
+                &:hover {
                     border-bottom: 2px solid transparent;
-    
+
                 }
             }
         }
     }
-    
+
 }
+
 @media(width: 992px) {
-    .left_side{
+    .left_side {
         margin-bottom: 0px;
     }
-    .navbar-light .navbar-nav .active > .nav-link {
+
+    .navbar-light .navbar-nav .active>.nav-link {
         border-bottom: 2px solid #ea623d;
     }
-    .navbar{
-        .navbar-nav{
-            .nav-link{
-                &:hover{
+
+    .navbar {
+        .navbar-nav {
+            .nav-link {
+                &:hover {
                     border-bottom: 2px solid #ea623d;
-    
+
                 }
             }
         }
     }
-    
+
 }
 
 
 
 @media(max-width: 991px) {
-    .our_clients{
-        .text_paragraph{
+    .our_clients {
+        .text_paragraph {
             margin-bottom: 30px;
         }
     }
-    .navbar{
-    .navbar-nav{
-        .nav-link{
-            &:hover{
-                border-bottom: 2px solid transparent;
 
+    .navbar {
+        .navbar-nav {
+            .nav-link {
+                &:hover {
+                    border-bottom: 2px solid transparent;
+
+                }
             }
         }
     }
 }
-}
+
 @media(width: 991px) {
     .navbar .navbar-nav .nav-link:hover {
-        
-        border-bottom: 2px solid transparent !important; 
-    }  
+
+        border-bottom: 2px solid transparent !important;
+    }
 }
 
 
@@ -514,13 +542,16 @@ html {
     .accordion {
         margin-bottom: 30px;
     }
-    .our_team_item{
+
+    .our_team_item {
         margin-bottom: 20px;
     }
+
     .buy_text {
         margin: 0 0 20px 0;
     }
 }
+
 @media(width: 768px) {
     .buy_text {
         margin: 0 88px 0 0;
@@ -529,29 +560,34 @@ html {
 
 @media(max-width: 493px) {
 
-    .follow_us{
-        .right_side{
-            flex-direction: column;  
-        .section_span, .my_input{
-            margin-bottom: 30px;
+    .follow_us {
+        .right_side {
+            flex-direction: column;
+
+            .section_span,
+            .my_input {
+                margin-bottom: 30px;
+            }
         }
-    }
     }
 }
 
 @media(max-width: 394px) {
 
-    .follow_us{
-        
-        .follow{
+    .follow_us {
+
+        .follow {
             flex-direction: column;
-            .left_side{
+
+            .left_side {
                 flex-direction: column;
-                .fab, .section_span{
+
+                .fab,
+                .section_span {
                     margin-bottom: 10px;
                 }
             }
         }
     }
-    
+
 }
