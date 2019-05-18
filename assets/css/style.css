@@ -137,6 +137,9 @@ a {
 body {
   overflow-x: hidden; }
 
+html {
+  scroll-behavior: smooth; }
+
 .navbar-light .navbar-nav .active > .nav-link {
   border-bottom: 2px solid #ea623d; }
 
@@ -436,6 +439,26 @@ body {
 .footer_wrapper {
   margin-bottom: 29px; }
 
+.button [aria-expanded=true] {
+  pointer-events: none; }
+
+.circle_fixed {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #b15039;
+  color: #c0bfc1;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-decoration: none !important; }
+  .circle_fixed:hover {
+    color: #fff; }
+
+.fa-chevron-up {
+  font-size: 25px; }
+
 @media (max-width: 1200px) {
   .stream_wrapper {
     flex-direction: column; }
@@ -479,7 +502,7 @@ body {
   .our_team_item {
     margin-bottom: 20px; }
   .buy_text {
-    margin: 0 0 10px 0; } }
+    margin: 0 0 20px 0; } }
 
 @media (width: 768px) {
   .buy_text {
