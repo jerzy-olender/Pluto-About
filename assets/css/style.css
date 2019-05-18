@@ -170,7 +170,7 @@ body {
   font-weight: 600;
   color: #666;
   padding: .5rem 0;
-  margin-left: 30px;
+  margin: 0 30px 0 30px;
   width: auto; }
 
 .about_us {
@@ -428,3 +428,20 @@ body {
 
 .button [aria-expanded=true] {
   pointer-events: none; }
+
+@media (max-width: 992px) {
+  .follow {
+    justify-content: center !important; }
+  .left_side {
+    margin-bottom: 30px; } }
+
+@media (max-width: 768px) {
+  .our_company_img,
+  .accordion {
+    margin-bottom: 30px; } }
+
+@media (max-width: 493px) {
+  .follow_us .right_side {
+    flex-direction: column; }
+    .follow_us .right_side .section_span, .follow_us .right_side .my_input {
+      margin-bottom: 30px; } }

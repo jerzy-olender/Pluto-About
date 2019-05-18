@@ -57,7 +57,7 @@
     font-weight: 600;
     color: #666;
     padding: .5rem 0;
-    margin-left: 30px;
+    margin: 0 30px 0 30px;
     width: auto;
 }
 
@@ -145,6 +145,7 @@
 .mb15 {
     margin-bottom: 15px;
 }
+
 .mb10 {
     margin-bottom: 10px;
 }
@@ -152,6 +153,7 @@
 .mr10 {
     margin-right: 10px;
 }
+
 .mr15 {
     margin-right: 15px;
 }
@@ -262,13 +264,14 @@
     bottom: -20px;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
     width: 8px;
     height: 8px;
     background-color: transparent;
     border-radius: 50%;
     border: 1px solid #fff;
 }
+
 .carousel-control-prev-icon {
     background-image: url("../img/Left_Arrow.png");
 }
@@ -339,7 +342,8 @@
     font-size: 13px;
     padding-left: 10px;
 }
-.follow_button{
+
+.follow_button {
     height: 39px;
     background-color: #ea623d;
     border-radius: 3px;
@@ -354,37 +358,71 @@
     background-color: #2a272e;
     padding: 50px 0 87px 0;
 }
+
 .footer_heading {
     font-size: 18px;
     font-weight: 600;
     color: #555258;
     text-transform: uppercase;
 }
-.footer_text1{
+
+.footer_text1 {
     color: #555258;
     font-size: 14px;
     line-height: 30px;
 }
-.footer_text2{
+
+.footer_text2 {
     font-size: 18px;
     color: #d75b3b
 }
 
-.footer_text3{
+.footer_text3 {
     font-size: 14px;
     color: #ccc;
     line-height: 22px;
 }
-.footer_text4{
+
+.footer_text4 {
     font-size: 11px;
     color: #545158;
     text-transform: uppercase;
 }
-.footer_wrapper{
+
+.footer_wrapper {
     margin-bottom: 29px;
 }
 
 .button [aria-expanded=true] {
 
     pointer-events: none;
+}
+
+@media(max-width: 992px) {
+    .follow{
+        justify-content: center !important;  
+    }
+    .left_side{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .our_company_img,
+    .accordion {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 493px) {
+
+    .follow_us{
+        .right_side{
+            flex-direction: column;  
+        .section_span, .my_input{
+            margin-bottom: 30px;
+        }
+    }
+    }
 }
