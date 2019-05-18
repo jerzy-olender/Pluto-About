@@ -1,7 +1,9 @@
 @import 'reset';
 @import 'fonts';
 
-
+.navbar-light .navbar-nav .active > .nav-link{
+    border-bottom: 2px solid #ea623d;
+}
 .navbar {
     padding: calc(.5rem + 11.5px) 1rem;
     width: 100%;
@@ -23,21 +25,20 @@
         }
 
     }
-
-
     .navbar-nav {
         justify-content: flex-end;
         width: 100%;
-
         .nav-link {
             font-size: 13px;
             font-weight: 600;
             color: #666;
             padding: .5rem 0;
             margin-left: 30px;
+            border-bottom: 2px solid transparent;
 
             &:hover {
                 color: #333;
+                border-bottom: 2px solid #ea623d;
             }
 
             &:active {
