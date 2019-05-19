@@ -307,12 +307,11 @@ html {
     border: 1px solid #fff;
 }
 
-.carousel-control-prev-icon {
-    background-image: url("../img/Left_Arrow.png");
+.fa-chevron-right, .fa-chevron-left{
+    font-size: 25px;
 }
-
-.carousel-control-next-icon {
-    background-image: url("../img/Right_Arrow.png");
+.carousel-control-next, .carousel-control-prev {
+    top: 50%;
 }
 
 /* our_team */
