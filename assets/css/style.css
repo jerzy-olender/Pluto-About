@@ -373,7 +373,8 @@ html {
   .our_team .fab {
     color: #999; }
     .our_team .fab:hover {
-      color: #333; }
+      color: #333;
+      cursor: pointer; }
 
 .team_img {
   margin-bottom: 20px; }

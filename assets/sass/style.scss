@@ -323,6 +323,7 @@ html {
 
         &:hover {
             color: #333;
+            cursor: pointer;
         }
     }
 }
@@ -440,7 +441,7 @@ html {
 
 .button [aria-expanded=true] {
 
-    pointer-events: none;
+   pointer-events: none;
 }
 
 
