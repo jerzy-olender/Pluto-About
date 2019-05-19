@@ -1,10 +1,11 @@
 @import 'reset';
 @import 'fonts';
-
+/* smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
 
+/* my_navbar */
 .navbar-light .navbar-nav .active>.nav-link {
     border-bottom: 2px solid #ea623d;
 }
@@ -69,6 +70,7 @@ html {
     width: auto;
 }
 
+/* about_us */
 .about_us {
     background-color: #453951;
     padding: 35px 0 39px 0;
@@ -92,30 +94,30 @@ html {
     }
 }
 
+/* constans elements */
+.section_heading {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
 .section_heading_light {
     font-size: 32px;
     color: #fff;
 }
 
-
-.our_company {
-    padding: 51px 0 70px 0;
+.section_subheading {
+    font-size: 18px;
+    line-height: 30px;
+    color: #666;
+    margin-bottom: 68px;
 }
 
 .text_heading {
     font-size: 18px;
     font-weight: 600;
     color: #333;
-    margin-bottom: 25px;
 }
-
-.text_heading_mb15 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 15px;
-}
-
 
 .text_paragraph {
     font-size: 14px;
@@ -130,8 +132,6 @@ html {
     text-transform: uppercase;
     letter-spacing: 1.3px;
 }
-
-
 
 .bb {
     border-bottom: 1px solid #e5e5e5;
@@ -177,20 +177,6 @@ html {
     padding-bottom: 20px;
 }
 
-
-.section_heading {
-    font-size: 32px;
-    color: #333;
-    margin-bottom: 30px;
-}
-
-.section_subheading {
-    font-size: 18px;
-    line-height: 30px;
-    color: #666;
-    margin-bottom: 68px;
-}
-
 .small-circle {
     width: 36px;
     height: 36px;
@@ -200,6 +186,40 @@ html {
     color: #fff;
 }
 
+.big_circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: #6a6174;
+    color: #fff;
+}
+
+.circle_fixed {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: #b15039;
+    color: #c0bfc1;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none !important;
+
+    &:hover {
+        color: #fff;
+        background-color: #ea623d;
+    }
+}
+
+/* our_company */
+.our_company {
+    padding: 51px 0 70px 0;
+}
+
+
+/* our_services */
 .our_services {
     padding: 50px 0 17px 0;
     background-color: #f5f5f5;
@@ -220,6 +240,7 @@ html {
     margin-bottom: 15px;
 }
 
+/* our_capabilities */
 .progress_span {
     font-size: 13px;
     color: #666;
@@ -266,6 +287,8 @@ html {
     padding: 0 1.25rem 0 51px;
 }
 
+/* slider */
+
 .slider {
     background-color: #453951;
     padding: 100px 0 120px 0;
@@ -291,6 +314,7 @@ html {
     background-image: url("../img/Right_Arrow.png");
 }
 
+/* our_team */
 .our_team {
     padding: 50px 0 70px 0;
 
@@ -307,6 +331,7 @@ html {
     margin-bottom: 20px;
 }
 
+/* our_clients */
 .our_clients {
     padding: 50px 0 40px 0;
     background-color: #f5f5f5;
@@ -316,6 +341,7 @@ html {
     margin-bottom: 30px;
 }
 
+/* buy */
 .buy {
     padding: 50px 0;
 }
@@ -338,14 +364,7 @@ html {
     letter-spacing: 1.3px;
 }
 
-.big_circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
-    background-color: #6a6174;
-    color: #fff;
-}
+/* follow_us */
 
 .follow_us {
     background-color: #453951;
@@ -373,6 +392,7 @@ html {
     letter-spacing: 1.3px;
 }
 
+/* my_footer */
 .my_footer {
     background-color: #2a272e;
     padding: 50px 0 87px 0;
@@ -423,27 +443,13 @@ html {
     pointer-events: none;
 }
 
-.circle_fixed {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-right: 15px;
-    background-color: #b15039;
-    color: #c0bfc1;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    text-decoration: none !important;
 
-    &:hover {
-        color: #fff;
-        background-color: #ea623d;
-    }
-}
-
+/* navigation circle */
 .fa-chevron-up {
     font-size: 25px;
 }
+
+/* media queries */
 
 @media(max-width: 1200px) {
     .stream_wrapper {
