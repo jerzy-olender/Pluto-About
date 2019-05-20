@@ -561,7 +561,7 @@
         });
 
 
-        $('.our_team_item')('[data-toggle="collapse"]').on('click', function (e) {
+        $('.our_team_item [data-toggle="collapse"]').on('click', function (e) {
             if ($(this).parents('.accordion').find('.collapse.show')) {
                 var idx = $(this).index('[data-toggle="collapse"]');
                 if (idx == $('.collapse.show').index('.collapse')) {
